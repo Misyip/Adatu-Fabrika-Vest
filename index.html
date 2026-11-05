@@ -32,7 +32,7 @@
 
     <!-- filterMinCF: 1 un filterBeta: 10 noņem aizturi, liekot bildei uzreiz sekot kustībai -->
     <a-scene 
-      mindar-image="imageTargetSrc: tirguslauk12.mind; filterMinCF: 1; filterBeta: 10; missTolerance: 2; warmupTolerance: 2; uiLoading: no; uiScanning: no;" 
+      mindar-image="imageTargetSrc: AF_target.mind; filterMinCF: 1; filterBeta: 10; missTolerance: 2; warmupTolerance: 2; uiLoading: no; uiScanning: no;" 
       color-space="sRGB" 
       renderer="colorManagement: true, physicallyCorrectLights: false" 
       vr-mode-ui="enabled: false" 
@@ -58,7 +58,7 @@
 
       // Automātiski nolasa bildes proporcijas, lai nekas netiktu apgriezts
       const img = new Image();
-      img.src = 'tirgus.jpeg';
+      img.src = 'AF_2026.png';
       img.onload = () => {
         const ratio = img.naturalWidth / img.naturalHeight;
         arImage.setAttribute('width', ratio);
