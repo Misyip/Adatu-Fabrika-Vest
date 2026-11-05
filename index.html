@@ -56,15 +56,6 @@
       const arImage = document.querySelector('#ar-image');
       const statusText = document.querySelector('#status');
 
-      // Automātiski nolasa bildes proporcijas, lai nekas netiktu apgriezts
-      const img = new Image();
-      img.src = 'AF_2026.jpeg';
-      img.onload = () => {
-        const ratio = img.naturalWidth / img.naturalHeight;
-        arImage.setAttribute('width', ratio);
-        arImage.setAttribute('height', '1');
-      };
-
       sceneEl.addEventListener('arReady', () => {
         statusText.innerText = "Kamera gatava! Pavērsiet pret attēlu...";
       });
