@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "targetIndex": 0,
+      "mindFile": "https://raw.githubusercontent.com/Misyip/Adatu-Fabrika-Vest/refs/heads/main/AF_target.mind",
+      "imageSrc": "https://raw.githubusercontent.com/Misyip/Adatu-Fabrika-Vest/refs/heads/main/AF_2026.jpeg"
+    },
+    {
+      "targetIndex": 1,
+      "mindFile": "https://raw.githubusercontent.com/Misyip/Adatu-Fabrika-Vest/refs/heads/main/LT-1939-QR.mind",
+      "imageSrc": "https://raw.githubusercontent.com/Misyip/Adatu-Fabrika-Vest/refs/heads/main/LT-2026.png"
+    }
+  ]
+}
